@@ -1,15 +1,10 @@
-let array = [1, 2, 3, 4, 5];
-alert(array[0]);
-alert(array[1]);
-alert(array[2]);
-alert(array[3]);
-alert(array[4]);
-console.log(array[0], array[1], array[2], array[3], array[4]);
-
-let arr = ['1', '2', '3', '4', '5'];
-alert(arr[0]);
-alert(arr[1]);
-alert(arr[2]);
-alert(arr[3]);
-alert(arr[4]);
-console.log(arr[0], arr[1], arr[2], arr[3], arr[4]);
+let array = [1, 2, 3];
+console.log(array[0]); 
+console.log(array[1]); 
+console.log(array[2]);
+// 2
+let array1 = [1, 2, 3];
+console.log(array1[0] + array1[1] + array1[2]); 
+// 3
+let array2 = ['a', 'b', 'c', 'd'];
+console.log(array2[0] + array2[1], '+', array2[2], '+', array2[3]);
