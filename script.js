@@ -1,5 +1,4 @@
-let obj = {};
-obj.a = 1;
-obj.b = 2;
-obj.c = 3;
-console.log(obj);
+let obj = {7: 'a', 50: 'b', 23: 'c'};
+alert(obj[23]); 
+alert(obj[7]); 
+alert(obj[50]); 
