@@ -1,11 +1,2 @@
-"use strict";
-let a, b, c, d, result, str; // объявляем все 3 переменные методом в одну строку
-
-// Присваиваем переменным значения:
-a = 'abcde';
-let last = a.length - 1;
-alert(a[last]);
-last = a.length - 2;
-alert(a[last]);
-last = a.length - 3;
-alert(a[last]);
+let a = '12345'; 
+console.log(Number(a[0]) + Number(a[1])+Number(a[2]) + Number(a[3])+Number(a[4]))
