@@ -1,17 +1,14 @@
-let arr = ['a', 'b', 'c'];
+let arr = [];
+
 arr[0] = 1;
 arr[1] = 2;
 arr[2] = 3;
 
-let array1 = [1, 2, 3];
-array1[0]++;
-array1[1]++;
-array1[2]++;
-console.log(array1);
+console.log(arr); 
 
-let array2 = [1, 2, 3, 4];
-array2[0] += 3;
-array2[1] += 3;
-array2[2] += 3;
-array2[3] += 3;
-console.log(array2)
+
+let array1 = [1, 2, 3];
+
+array1[3] = 4;
+array1[4] = 5;
+console.log(array1)
