@@ -1,14 +1,6 @@
-let arr = [];
+let array = [];
 
-arr[0] = 1;
-arr[1] = 2;
-arr[2] = 3;
+array[3] = 'a';
+array[8] = 'b';
 
-console.log(arr); 
-
-
-let array1 = [1, 2, 3];
-
-array1[3] = 4;
-array1[4] = 5;
-console.log(array1)
+alert(array.length);
