@@ -1,5 +1,5 @@
 "use strict";
-
+/*
 let test1 = '3';
 let test2 = '3';
 		
@@ -40,3 +40,4 @@ if (test9 === test10) {
 } else {
 	console.log('---');   true
 }
+*/
