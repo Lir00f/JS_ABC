@@ -13,6 +13,6 @@ switch (lang) {
 	document.write('нем');
     break;
     default:
-	document.write('язык не поддерживается');
+	document.write('язык не поддерживается.');
     break;
 }
