@@ -1,9 +1,12 @@
 "use strict";
 
-let ok = confirm('age 18+');
+let age = 17;
+let adult;
 
-if (ok) {
-	document.write('+');
+if (age >= 18) {
+	adult = true;
 } else {
-	document.write('-');
+	adult = false;
 }
+
+document.write(adult);
