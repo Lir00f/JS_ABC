@@ -1,6 +1,6 @@
 "use strict";
 
-let str = 'Elvin ti milanochka?';
+let str = 'Osman ti bidlo?';
 let arr = str.split('') 
 let count = {};         
 let result = 0 
