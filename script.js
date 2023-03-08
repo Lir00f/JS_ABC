@@ -1,6 +1,5 @@
-"use strict";
-
-let array = ['a', 'b', 'c', 'd', 'e', 'f', 'g'];
-for (let element of array) {
-	console.log(element);
+let obj = {x: 1, y: 2, z: 3};
+for (let key in obj) {
+	console.log(key); 
+    console.log(obj[key]); 
 }
