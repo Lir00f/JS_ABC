@@ -1,16 +1,23 @@
-let i = 1;
-while (i <= 100) {
-	console.log(i);
-	i++;
+let res = 0;
+for (let i = 2; i <= 100; i++) {
+    if(i % 2 == 0){
+	res += i;
+    }
 }
+console.log(res);
 
-let i1 = 11;
-while (i1 <= 33) {
-	console.log(i1);
-	i1++;
+let res1 = 0;
+for (let i = 1; i <= 99; i++) {
+    if(i % 2 != 0){
+	res1 += i;
+    }
 }
-let i2 = 3;
-while (i2 <= 1000){
-    i2 = i2 * 3;
-console.log(i2)
+console.log(res1);
+
+let res2 = 1;
+for (let i = 1; i <= 20; i++) {
+    if(i % 2 != 0){
+	res2 *= i;
+    }
 }
+console.log(res2);
