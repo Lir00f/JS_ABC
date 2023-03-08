@@ -1,25 +1,48 @@
 "use strict";
 
 //////
-let arr1 = [1, 2, 3, 4, 5];
+let array1 = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+   let array2 = [1, 2, 3, 4, 5, 6, 7];
+   let newObj1 = {};
 
-   for (let item in arr1) {
-      arr1[item] = arr1[item] ** 2;
+   for (let i = 0; i <= 6; i++) {
+      let element = array2[i];
+      let value = array1[i]
+
+      newObj1[element] = value
    };
-   console.log(arr1)
+
+console.log(newObj1);
 
 //////
-let arr2 = [1, 2, 3, 4, 5];
+let obj = { a: 1, b: 2, c: 3, d: 4, e: 5 };
+let newObj2 = {};
 
-for (let item in arr2) {
-      arr2[item] -= 1
+for (let element in obj) {
+
+   if (obj[element] % 2 == 0) {
+
+	  let newelement = element;
+	  let value = obj[element];
+	  newObj2[newelement] = value;
+
+   } else {
+	  continue
+   };
 };
-console.log(arr2)
+
+console.log(newObj2);
 
 //////
-let arr3 = [1, 2, 3, 4, 5];
+let obj1 = { a: 1, b: 2, c: 3, d: 4, e: 5 };
+let newObj3 = {};
 
-for (let item in arr3) {
-   arr3[item] += 10
+for (let element in obj1) {
+
+   let newelement = obj1[element];
+   let newValue = element;
+
+   newObj3[newelement] = newValue;
 };
-console.log(arr3)
+console.log(obj1);
+console.log(newObj3);
