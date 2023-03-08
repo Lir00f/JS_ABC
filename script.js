@@ -3,7 +3,6 @@ while (i <= 100) {
 	console.log(i);
 	i++;
 }
-// 2
 let i1 = 11;
 while (i1 <= 33) {
 	console.log(i1);
