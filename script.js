@@ -1,13 +1,14 @@
-lir00f(); 
+function cub(a) {
+   console.log(Math.pow(a, 3));
+}
+cub(2);
 
-function lir00f() {
-	console.log('consolka');
+function num(b) {
+   if (b >= 0) {
+      console.log('+++')
+   } else {
+      console.log('---')
+   }
 }
 
-
-let num = (a, b) => {
-   for (; a <= b; a++) {
-      console.log(a);
-   }
-};
-num();
+num(-2);
